@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Redeclaring the variableinside the block and printing itoutside the block.</h2>
+    <script defer type=text/javascript> 
+   // let
+    let print="Hello";
+    document.write(print);
+    {
+        let print=" World !!";
+        document.write(print);
+    }
+
+    document.write("<br>")  // break line
+    document.write("<br>")
+document.body.style.backgroundColor="lightyellow"
+</script>
+<H2>Modifying the arrayelement and adding arrayelement.Print the array before andafter modification</H2>
+
+<script defer type=text/javascript>
+ // consT
+
+const country=["INDIA","PAKISTAN","CHINA","RUSIA","JAPAN"];
+document.write(country);
+document.write("<br>")
+document.write("<br>")
+
+country[0]="AMERICA"
+country.push("DUBAI")
+document.write(country);
+</script>
+
+</body>
+</html>
